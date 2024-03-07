@@ -39,4 +39,4 @@ int n = Convert.ToInt32(Console.ReadLine());
 int[] Mass = new int[n];
 int[] new_mas = Random_mas(Mass);
 Print_mas(new_mas);
-PrintMass(new_mas);
+PrintMass(new_mas, new_mas.Length - 1);
